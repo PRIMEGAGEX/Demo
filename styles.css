@@ -1,0 +1,24 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, sans-serif; }
+body { background: #121212; color: #f4f4f4; padding-bottom: 40px; }
+
+header { padding: 20px; text-align: center; border-bottom: 1px solid #333; }
+header h1 { font-size: 1.5rem; letter-spacing: 2px; color: #ff5722; }
+header p { font-size: 0.8rem; color: #888; margin-top: 4px; }
+
+.lang-switch { margin-top: 10px; display: flex; justify-content: center; gap: 8px; }
+.lang-switch button { background: #222; color: #fff; border: 1px solid #444; padding: 4px 10px; border-radius: 4px; font-size: 0.8rem; }
+.lang-switch button.active { border-color: #ff5722; color: #ff5722; }
+
+.sticky-cat { position: sticky; top: 0; background: #1a1a1a; display: flex; justify-content: space-around; padding: 12px; border-bottom: 1px solid #333; }
+.sticky-cat a { color: #aaa; text-decoration: none; font-weight: bold; font-size: 0.9rem; }
+
+.container { padding: 16px; max-width: 500px; margin: 0 auto; }
+h2 { font-size: 1.1rem; color: #ff5722; margin: 24px 0 12px 0; border-bottom: 1px solid #222; padding-bottom: 4px; }
+
+.item-card { background: #1e1e1e; padding: 12px; border-radius: 8px; margin-bottom: 12px; }
+.item-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 1rem; }
+.item-price { color: #ff5722; }
+.item-desc { font-size: 0.85rem; color: #aaa; margin: 6px 0; }
+.badges { display: flex; gap: 6px; }
+.badge { background: #333; color: #ddd; font-size: 0.7rem; padding: 2px 6px; border-radius: 3px; }
+.badge.ipa { background: #3e2723; color: #ffcc80; }

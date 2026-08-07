@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garage Beer Co - Menu Demo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="brand">
+      <h1>GARAGE BEER CO.</h1>
+      <p>EIXAMPLE TAPROOM</p>
+    </div>
+    <div class="lang-switch">
+      <button onclick="setLanguage('es')">🇪🇸 ES</button>
+      <button onclick="setLanguage('en')" class="active">🇬🇧 EN</button>
+    </div>
+  </header>
+
+  <nav class="sticky-cat">
+    <a href="#taps">TAPS</a>
+    <a href="#bottles">BOTTLES</a>
+    <a href="#food">FOOD</a>
+  </nav>
+
+  <main class="container">
+    <section id="taps">
+      <h2>ON TAP</h2>
+      <div id="tap-list"></div>
+    </section>
+
+    <section id="food">
+      <h2>FOOD & BITES</h2>
+      <div id="food-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
